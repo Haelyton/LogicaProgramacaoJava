@@ -12,8 +12,6 @@ public class RemoverDuplicados {
     public static void main(String[] args) {
         int[] vetor = {1, 2, 2, 2, 2, 2, 5};
 
-        int numeros = vetor[0];
-
         for (int i = 0; i < vetor.length; i++) {
 
             boolean igual = false;
